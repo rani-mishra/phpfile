@@ -3,6 +3,6 @@
   <title>PHP-Test</title>
  </head>
  <body>
-  <?php echo '<h1>Hello World!</h1><h3>Welcome to WPMU DEV</h3>'; ?>
+  <?php echo '<h1>Hello World! My name is Rani </h1><h3>Welcome to WPMU DEV</h3>'; ?>
  </body>
 </html>
