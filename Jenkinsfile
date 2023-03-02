@@ -7,9 +7,9 @@ pipeline {
             AWS_SECRET_ACCESS_KEY = credentials('2aNZlTC4v7fQTg8QojKGi6haniHtbEBdvPBzc/gw')
             AWS_DEFAULT_REGION = 'ap-south-1'
             ASG_NAME = 'Php-Autoscaling-Group'
-            DESIRED_CAPACITY = 4
-            MIN_CAPACITY = 2
-            MAX_CAPACITY = 6
+            DESIRED_CAPACITY = 1
+            MIN_CAPACITY = 1
+            MAX_CAPACITY = 1
           }
         }
         
