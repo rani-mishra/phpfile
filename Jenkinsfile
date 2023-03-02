@@ -10,7 +10,7 @@ pipeline {
             DESIRED_CAPACITY = 4
             MIN_CAPACITY = 2
             MAX_CAPACITY = 6
-            }
+          }
         }
         
     
@@ -31,5 +31,4 @@ pipeline {
             }
         }
     }
-    
 }  
