@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Environment') {
             environment {
-            AWS_ACCESS_KEY_ID = credentials('AKIAWPWJDKD5FY7QDU7A')
-            AWS_SECRET_ACCESS_KEY = credentials('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')
+            AWS_ACCESS_KEY_ID = credentials
+            AWS_SECRET_ACCESS_KEY = credentials
             AWS_DEFAULT_REGION = 'ap-south-1'
             ASG_NAME = 'Php-Autoscaling-Group'
             DESIRED_CAPACITY = 1
